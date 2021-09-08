@@ -24,8 +24,8 @@ namespace Critters.NPCs.Fish
 			npc.damage = 0;
 			npc.defense = 0;
 			npc.lifeMax = 5;
-						Main.npcCatchable[npc.type] = true;
-			npc.catchItem = (short)ItemID.SpecularFish;
+			Main.npcCatchable[npc.type] = true;
+			npc.catchItem = (short)ItemID.Damselfish;
 			npc.HitSound = SoundID.NPCHit1;
 			npc.DeathSound = SoundID.NPCDeath1;
 			npc.knockBackResist = .35f;
